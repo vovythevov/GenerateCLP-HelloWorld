@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<executable>
+    <category>Miscellaneous</category>
+    <title>Sauron Incomplete Song</title>
+    <description><![CDATA[Displays the lore of the one ring.]]></description>
+    <version>1.0</version>
+    <documentation-url>See the specialized books: the Lord of the Rings trilogy</documentation-url>
+    <license></license>
+    <contributor>Johan Andruejol</contributor>
+    <acknowledgements><![CDATA[J.R.R Tolkien, Wikipedia]]></acknowledgements>
+ 
+    <parameters>
+        <label>Number of Rings</label>
+        <description><![CDATA[Set the right number of rings.]]></description>
+        
+        <integer>
+            <name>elvenRings</name>
+            <label>Number of Elvens Rings</label>
+            <longflag>--elvenRings</longflag>
+            <default>3</default>
+            <description><![CDATA[The number of rings given to the Elven-kings under the sky.]]></description>
+        </integer>
+        
+        <integer>
+            <name>dwarfRings</name>
+            <label>Number of Dwarfs Rings</label>
+            <longflag>--dwarfRings</longflag>
+            <default>7</default>
+            <description><![CDATA[The number of rings given to the Dwarf-lords in their halls of stone.]]></description>
+        </integer>
+        
+        <integer>
+            <name>menRings</name>
+            <label>Number of Mens Rings</label>
+            <longflag>--menRings</longflag>
+            <default>9</default>
+            <description><![CDATA[The number of rings given to the Mortal Men doomed to die.]]></description>
+        </integer>
+        
+        <integer>
+            <name>darkLordRings</name>
+            <label>Number of Dark Lords Rings</label>
+            <longflag>--darkLordRings</longflag>
+            <default>1</default>
+            <description><![CDATA[The number of rings given to the Dark Lord on his dark throne.]]></description>
+        </integer>
+
+    </parameters>
+
+</executable>
+
